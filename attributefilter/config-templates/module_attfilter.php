@@ -1,14 +1,18 @@
 <?php
 
 /* 
- * attributefilter:AttributeFilter
+ * Attributefilter configuration file. 
  * 
- * 
+ * Define the EntityID and the attributes to release to the specifed EntityID
  * 
  */
 
 $config = array(
 
-'https://sso.cilea.it/simplesaml/module.php/saml/sp/metadata.php/saml2' => array('mail','eduPersonTargetedID'),
-
+	/* EntityID --> */
+	'https://sso.cilea.it/simplesaml/module.php/saml/sp/metadata.php/saml2' =>
+	array('mail','eduPersonTargetedID'), /* <-- Attributes to release */
+		
+/*	'https://my.entity.id' => array('attributes','to','release'),
+ 	'https://my.entity.id/2' => array('more','attributes','to','release'), */
 );

@@ -2,10 +2,10 @@
 
 
 /**
- * This module controls what attributes can be released to a specified sp.
+ * This module controls what attributes can be released to a specified EntityID.
  * 
  *  
- * @author Riccardo G. Valzorio <riccardo.valzorio@gmail.com>
+ * @author Riccardo G. Valzorio <riccardo.valzorio@gmail.com>/<valzorio@cilea.it>
  *
  */
 class sspmod_attributefilter_Auth_Process_AttributeFilter extends SimpleSAML_Auth_ProcessingFilter {
