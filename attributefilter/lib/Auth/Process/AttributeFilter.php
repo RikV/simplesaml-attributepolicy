@@ -21,7 +21,7 @@ class sspmod_attributefilter_Auth_Process_AttributeFilter extends SimpleSAML_Aut
 	 * Construct
 	 */
 	public function __construct() {
-		$config = SimpleSAML_Configuration::getConfig('module_attfilter.php');
+		$config = SimpleSAML_Configuration::getConfig('module_attributefilter.php');
 		$this->policy_list = $config->toArray();
 		
 	}
