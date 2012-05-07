@@ -3,7 +3,7 @@ AttributeFilter Module
 
 	Author: Riccardo G. Valzorio 
 	Contact: riccardo.valzorio@gmail.com ~ valzorio@cilea.it
-	Last update: 4 May 2012
+	Last update: 7 May 2012
 
 **Intro**
 
@@ -19,7 +19,7 @@ This module allows to chose what attributes release to a specified Service Provi
 
 * Copy configuration template in "config" folder
 
-		# cp /[...]/modules/attributefilter/config-template/module_attfilter.php /[...]/config
+		# cp /[...]/modules/attributefilter/config-template/module_attributefilter.php /[...]/config
 
 * Load the module in config.php (authproc.idp array)
 
